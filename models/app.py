@@ -1,4 +1,4 @@
-from laba_8.myapp.models.author import author
+from . import author
 
 class app():
     def __init__(self, name, version, author):
@@ -32,8 +32,8 @@ class app():
         return self.__author
 
     @author.setter
-    def version(self, value):
+    def author(self, value):
         if isinstance(value, author):
             self.__version = value
         else:
-            raise TypeError("Имя версии должно быть строкой длиной минимум 2 символа")
+            raise TypeError("author должен быть объектом класса Author")

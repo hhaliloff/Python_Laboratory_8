@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Списки валют:</title>
+</head>
+<body>
+    <h1>Списки валют:</h1>
+    <H2>Избранное</H2>
+    <ul>
+        {% for subsc in subs%}
+        <li>{{subsc}} — {{currency[subsc]}}</li>
+        {% endfor %}
+    </ul>
+    <p>Мировые валюты:</p>
+    <ul>
+        {% for currency_it in ids %}
+        <li>{{currency_it}} — {{currency[currency_it]}}</li> <form method="post" action="/action"><button type="submit" name="subscription" value="{{currency_it}}">Подписаться</button></form>
+        <br>
+        {% endfor %}
+    </ul>
+    <a href="/">На главную</a>
+</body>
+</html>

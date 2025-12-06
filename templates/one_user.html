@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пользователь {{name}}</title>
+</head>
+<body>
+    <h1>Пользователь {{name}}</h1>
+    <br>
+    <br>
+    <ul>
+        {% for cur in user_cur%}
+        <li>{{cur}} — {{currencies[cur]}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

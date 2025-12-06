@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{myapp}}</title>
+</head>
+<body>
+    <h1>{{myapp}}</h1>
+        <H2>Избранное</H2>
+    <ul>
+        {% for subsс in subs%}
+        <li>{{subsс}} — {{currency[subsс]}}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <br>
+    <a href="/currencies">Валюты</a>
+    <br>
+    <br>
+    <a href="/user?id=0">Пользователи</a>
+    <br>
+    <br>
+    <a href="/author">Об авторе</a>
+    <br>
+    <p>Version: {{version}}</p>
+    <p>Автор проекта: {{author_name}}</p>
+    <p>Группа: {{group}}</p>
+</body>
+</html>
