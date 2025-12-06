@@ -100,7 +100,13 @@ def get_currencies(currency_codes: list) -> dict:
 Пользователь /user?id=504634
 Все пользователи /user?id=0
 
-[!Пример](screens/Screenshot%202025-12-06%20at%2019.02.02.png)
+![Пример](screens/Screenshot%202025-12-06%20at%2019.02.02.png)
+![Screenshot 2025-12-06 at 19.02.06.png](screens/Screenshot%202025-12-06%20at%2019.02.06.png)
+![Screenshot 2025-12-06 at 19.02.10.png](screens/Screenshot%202025-12-06%20at%2019.02.10.png)
+![Screenshot 2025-12-06 at 19.02.15.png](screens/Screenshot%202025-12-06%20at%2019.02.15.png)
+![Screenshot 2025-12-06 at 19.02.17.png](screens/Screenshot%202025-12-06%20at%2019.02.17.png)
+![Screenshot 2025-12-06 at 19.02.31.png](screens/Screenshot%202025-12-06%20at%2019.02.31.png)
+![Screenshot 2025-12-06 at 19.02.44.png](screens/Screenshot%202025-12-06%20at%2019.02.44.png)
 
 7. Тестирование
 
