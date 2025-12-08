@@ -77,7 +77,6 @@ class MyHandler(BaseHTTPRequestHandler):
 
 
 
-
 env = Environment(
     loader=FileSystemLoader("templates"),
     autoescape=select_autoescape()
